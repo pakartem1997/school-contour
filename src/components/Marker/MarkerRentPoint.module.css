@@ -1,0 +1,14 @@
+.markerImg {
+  cursor: pointer;
+}
+
+.address {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 16%);
+  border-radius: 8px;
+  transform: translate(24px, calc(18% - 50px));
+  z-index: 1000;
+  padding: 7px;
+  white-space: nowrap;
+}

@@ -1,0 +1,25 @@
+.tabs {
+  display: flex;
+}
+
+.tabsLink {
+  padding: calc(var(--m) * 1) 0;
+  color: var(--colorMain);
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.tabsLink + .tabsLink {
+  margin-left: calc(var(--m) * 3);
+}
+
+.tabsLink:hover,
+.tabsLink:focus {
+  text-decoration: none;
+  border-color: rgba(54, 106, 243, 0.25);
+}
+
+.tabsLink.active {
+  border-color: var(--colorLink);
+  cursor: default;
+}

@@ -1,0 +1,35 @@
+:root {
+  --m: 8px;
+  --colorMain: #222;
+  --colorLink: #366af3;
+  --colorBorder: #ebebeb;
+  --colorTextSecondary: #858585;
+  --colorTextWarning: #d97e00;
+  --colorTextError: #cb3d35;
+  --colorBgLight: #f6f6f6;
+  --colorBackground: #fff;
+  --colorBgHeader: #fff;
+  --colorBgCard: #fff;
+  --colorPaging: 0 0 0;
+  --colorBoxShadow: 0, 0, 0;
+  --colorHover: #f6f6f6;
+  --headerHeight: calc(var(--m) * 15);
+  --bgMain: url('../img/q1.png');
+}
+
+[data-theme='dark'] {
+  --colorMain: #fff;
+  --colorLink: #3c51fa;
+  --colorBorder: #ebebeb;
+  --colorTextSecondary: #858585;
+  --colorTextWarning: #d97e00;
+  --colorTextError: #cb3d35;
+  --colorBgLight: #f6f6f6;
+  --colorBackground: #202430;
+  --colorBgHeader: #242a38;
+  --colorBgCard: #4e586f;
+  --colorPaging: 255 255 255;
+  --colorBoxShadow: 255, 255, 255;
+  --colorHover: #334462;
+  --bgMain: url('../img/q2.png');
+}

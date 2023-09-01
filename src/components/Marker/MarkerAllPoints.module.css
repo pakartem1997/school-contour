@@ -1,0 +1,62 @@
+.markerImg {
+  cursor: pointer;
+}
+
+.ballon {
+  position: relative;
+  background-color: var(--colorBackground);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  transform: translate(-19px, calc(-100% - 50px));
+  z-index: 1000;
+}
+
+.ballon::before,
+.ballon::after {
+  content: '';
+  position: absolute;
+  left: 20px;
+  bottom: -20px;
+  border: 10px solid transparent;
+  border-top: 10px solid var(--colorBackground);
+}
+
+.ballon::after {
+  border-top: 10px solid var(--colorBackground);
+  bottom: -19px;
+}
+
+.ballonHeader {
+  text-align: right;
+  padding-right: 8px;
+}
+
+.close {
+  cursor: pointer;
+  stroke: var(--colorMain);
+}
+
+.ballonContent {
+  padding: 0 16px 16px;
+  width: 240px;
+}
+
+.address {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--colorMain);
+  margin-bottom: 4px;
+}
+
+.count {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--colorMain);
+  margin-bottom: 13px;
+}
+
+.button {
+  margin-bottom: 9px;
+}

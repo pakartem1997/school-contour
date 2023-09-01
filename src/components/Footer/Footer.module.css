@@ -1,0 +1,19 @@
+.footer {
+  padding: 0 var(--pad);
+}
+
+.footerContent {
+  max-width: calc(1900px - calc(var(--pad) * 2));
+  margin: 0 auto;
+  border-top: 1px solid var(--colorBorder);
+  padding: calc(var(--m) * 3) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.875rem;
+  color: #eee;
+}
+
+.footerLink {
+  color: var(--colorTextSecondary);
+}

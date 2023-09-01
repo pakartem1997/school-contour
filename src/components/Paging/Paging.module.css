@@ -1,0 +1,37 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  padding-top: calc(var(--m) * 4);
+  margin-top: auto;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: calc(var(--m) * 4);
+  width: calc(var(--m) * 4);
+  border-radius: 50%;
+}
+
+.link + .link {
+  margin-left: 2px;
+}
+
+.link:hover,
+.link:focus {
+  text-decoration: none;
+  background-color: rgb(var(--colorPaging) / 5%);
+}
+
+.link.active {
+  cursor: default;
+  background-color: rgb(var(--colorPaging) / 10%);
+}
+
+.next {
+  margin-left: calc(var(--m) * 2);
+  padding-right: calc(var(--m) * 2);
+  background: url('../../img/next.svg') 100% 50% no-repeat;
+}

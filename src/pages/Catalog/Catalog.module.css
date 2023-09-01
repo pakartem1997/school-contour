@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+}
+
+.catalogHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: calc(var(--m) * 3);
+}
+
+.catalogHeaderAside {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: var(--colorTextSecondary);
+}
+
+.catalogHeaderAside span + span {
+  margin-left: 16px;
+}
+
+.onMap {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--colorMain);
+  padding: 9px 16px;
+  cursor: pointer;
+}
+
+.onMap:hover {
+  background: var(--colorHover);
+  border-radius: 24px;
+}
+
+.mapIcon {
+  margin-right: 10px;
+}
+
+.headerText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}

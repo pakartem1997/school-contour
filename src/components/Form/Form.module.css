@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  font-size: 1.125rem;
+  margin-bottom: calc(var(--m) * 3);
+}
+
+.rowCol {
+  display: flex;
+}
+
+.rowCenter {
+  text-align: center;
+}
+
+.col + .col {
+  margin-left: calc(var(--m) * 3);
+}

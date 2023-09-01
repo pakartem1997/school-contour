@@ -1,0 +1,9 @@
+.mapContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.customMarker {
+  border: 2px dotted black;
+  background-color: rgba(0, 0, 0, 0.1);
+}

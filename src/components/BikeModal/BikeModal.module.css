@@ -1,0 +1,60 @@
+.bikeTop {
+  display: inline-flex;
+  margin-bottom: 41px;
+  width: 665px;
+  height: 313px;
+}
+
+.bikeImg {
+  width: 448px;
+  height: 299px;
+  margin-right: 32px;
+  flex-shrink: 0;
+}
+
+.bikeInfo {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.bikePrice {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--colorMain);
+  margin-bottom: 18px;
+}
+
+.mapTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--colorMain);
+  margin-bottom: 16px;
+}
+
+.asideQRCode {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.receiptCode {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--colorMain);
+  margin-bottom: 24px;
+}
+
+.qrCodeImg {
+  margin-bottom: 24px;
+  width: 156px;
+  height: 156px;
+}
+
+.mapContainer {
+  width: 448px;
+  height: 271px;
+}

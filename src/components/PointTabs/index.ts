@@ -1,0 +1,1 @@
+export { PointTabs } from './PointTabs';

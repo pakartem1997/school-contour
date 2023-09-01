@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "outDir": "dist",
+    "baseUrl": "./",
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "paths": {
+      // говорим typescript'у, чтобы он применял типы к `import { something } from ymaps3`
+      // теперь из ymaps3 можем импортировать и типы и runtime код
+      "ymaps3": ["./node_modules/@yandex/ymaps3-types/"]
+    }
+  },
+  "include": ["src", "types"]
+}
